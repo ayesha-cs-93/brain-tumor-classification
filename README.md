@@ -83,6 +83,11 @@ Live Patient Prediction
 > dataset (e.g., Kaggle Brain MRI Dataset by Masoud 
 > Nickparvar) for meaningful results. The ML pipeline 
 > itself is clean and reusable.
+> ## 📸 Visualizations
+
+![Model Analysis](confusion%20matrix.png)
+
+![Correlation Heatmap](heatmap.png)
 ---
 
 ## 🔍 Key Features of This Project
