@@ -8,7 +8,11 @@
 
 Brain tumor diagnosis is a critical and time-sensitive medical challenge. This project applies Machine Learning to classify brain tumors based on clinical features such as tumor size, stage, histology type, and patient history.
 
-This is an **educational research project** built as part of my coursework in Artificial Intelligence & Machine Learning.
+> 💡 **Key Finding:** Through correlation heatmap analysis, 
+> I identified that this dataset appears to be synthetically 
+> generated — feature-target correlations were near zero. 
+> This is documented as a project limitation and highlights 
+> the importance of data quality in ML pipelines.
 
 > ⚠️ **Medical Disclaimer:** This tool is for research and educational purposes only. It is **not** a substitute for professional medical diagnosis. Always consult a qualified doctor.
 
@@ -66,12 +70,19 @@ Live Patient Prediction
 
 | Metric | Score |
 |--------|-------|
-| Test Accuracy | ~XX% *(run notebook to see)* |
-| 5-Fold CV Mean | ~XX% |
-| AUC-ROC | ~X.XX |
+| Test Accuracy | ~50% |
+| 5-Fold CV Mean | ~50% |
 
-> Results depend on the dataset version used. No accuracy was hardcoded — all numbers are genuine model outputs.
-
+> **Honest Analysis:** The dataset used appears to be 
+> synthetically generated, resulting in near-random model 
+> performance (~50% accuracy). Feature correlation analysis 
+> confirmed near-zero relationships between features and 
+> target variable.
+>
+> **Next Step:** Re-run this pipeline on a real clinical 
+> dataset (e.g., Kaggle Brain MRI Dataset by Masoud 
+> Nickparvar) for meaningful results. The ML pipeline 
+> itself is clean and reusable.
 ---
 
 ## 🔍 Key Features of This Project
